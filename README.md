@@ -2,66 +2,69 @@
 
 ## Description 
 
-Description.......
+In this homework I refactor the html amd css codes for them to follow the accessibility standards and for the web-page to be optimized for search engines. I changed nd/or removed most of div tags in html file and replaced them with semantic tags in the places where it was possible, added alt attributes to all the pictures on the page and also changed the title for it to be more informative to the actual content.
 
 
+## Changes in HTML file
+
+First I changed text in titile from Website to Horiseon_Optimization_Strategies so the name of the page will be more informative and people could get the slight idea about the content.
+I changed tag div with class header for a semantic tag header.
+Then I changed the class=seo for id=seo because this is an only one place for such kind of change on the page.
+The next change was I changed div tag before the list for nav tag because this is a navigation panel.
+The next change was changing class=hero for the id=hero because it is also the one time case.
+I added alt attribute to the hero picture.
+Also I changed tag div class=content to semantic tag content.
+Then I canged three div classes with images for semantic tags section. Also in this sections I changed the class attribute to an id attribute for the links in nav section to be able to bring you to the correct section. In the second and third sections I removed repeating attribues class.
+I added alt attributes for three pictures in the section part.
+
+The next part of the changes was for the aside part, so I changed div tag for semantic tag aside.
+The other change was to make one class benefits instead of three classes benefit-lead, benefit-brand and benefit-cost because they represent basically the same things.
+Added alt attributes for three pictures at aside part.
+The other change was to change div tag footer for the semantic tag footer.
+And the last change on the html document was to change h2 for h4 for the footer for the h elements to be in sequential order.
 
 
-## Table of Contents (Optional)
+## Changes in CSS file
 
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+I changed selectors in the rule sets and declaration blocks for them to correlate with html document. Classes to be relate to classes, id-s to relate with id-s and semantic tags to relate with semantic tags.
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
+The first rule set structures the whole page. I didn't change this one.
+The next rule set sets background color of the whole page.
 
+In the declaration block with header selection I changed it to relate with header semantic tag. 
 
-## Installation
+The h1 rule sets how this part would look  - the size and line-block, as well as the seo property sets different color for the part of the h1.
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+The declaration block with nav attribute describes that navigation bar floats to the right and has certain fonts, margins and margins.
 
+The li rule set also sets list style and margins for navigation part.
 
-## Usage 
+The a rule set also sets the color and text-decoration for the parts in navigation part.
 
-Provide instructions and examples for use. Include screenshots as needed. 
+The hero rule set sets how the background picture is placed, it's size, margins and it's source.
 
+The content rule set describes the featuresof the content part and also there I changed it to correlate with semantic tag content and not the content class.
 
-## Credits
+In the section declaration block I joined three classes.
 
-List your collaborators, if any, with links to their GitHub profiles.
+Rule sets float-right and float-left are describing the position of the pictures in sections.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+Rule sets h2 and p describes how the text part would look like in the section blocks.
 
-If you followed tutorials, include links to those here as well.
+Declarstion block aside joined three classes and described how the aside part would look like on the page and where it eould be placed.
 
+The rule set benefits joined three classes in one and the h3 rule set describes the headers position and text align in the aside part.
 
+The aside image rule set also joined 3 classes in one and describes how the images on the aside part would be placed.
 
-## License
+The footer declaration block was changed to correlate with the footer semantic tag in html file and describes where  and how the footer part is placed on the page and how the text inside of it should look like.
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
+The h4 attribute was changed because the headers should be in sequential order and it sets the font size of the header.
+
+Also I organzed the rule sets and declaration blocks for them to be in the same order as the related eklements appear in the html file.
+
 
 
 ---
-
-🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't _necessary_, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-
-## Contributing
-
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
-
----
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Olena Turetska, student of th UCF Bootcamp. All Rights Reserved.
 
