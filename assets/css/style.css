@@ -1,3 +1,6 @@
+/* Organized document for the elements to appear in the same order as in the linked.html */
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,35 +19,23 @@ header {
     color: #ffffff;
 }
 
-/* header  */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-/* header h1 .seo { */
     #seo {
     color: #d9dcd6;
 }
 
-/* header  */
 nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    list-style-type: none;
+
 }
 
-/* .header div ul changed for nav
-nav { removed up
-    /* list-style-type: none; */
-    
-
-
-/* .header div 
-ul  */
 li{
     display: inline-block;
     margin-left: 25px;
@@ -53,10 +44,6 @@ li{
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 /* changed class for id */
@@ -68,17 +55,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 /* content changed from class to semantic tag */
 content {
     width: 75%;
@@ -86,9 +62,40 @@ content {
     margin-left: 20px;
 }
 
-/* changed class benefits for semantic tag aside */
-/* .benefits  */
+/* replaced 3 classes below with one semantic tag section */
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+    
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* replaced 3 classes below for one h2 for all */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* changed class benefits for semantic tag aside */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -101,26 +108,10 @@ aside {
 }
 
 /* rplaced 3 classes below with one */
-
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-/* .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
 
 /* replaced 3 classes below for one h3 */
 h3 {
@@ -128,122 +119,12 @@ h3 {
     text-align: center;
 }
 
-/* .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
 /* replaced 3 classes below for aside img */
-
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px; 
 }
-
-/* .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* replaced 3 classes below with one semantic tag section */
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* replaced 3 classes below with 2 tags for all */
-section img {
-    max-height: 200px;
-}
-
-/* .search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-
-/* replaced 3 classes below for one h2 for all */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 /* changed classes footer for semantig tag footer and h2 for h4 */
 footer {
